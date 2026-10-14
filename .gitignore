@@ -1,0 +1,15 @@
+# Skill'in kullanıcı makinesinde ürettiği çalışma dosyaları —
+# bunlar repo'ya girmemeli, kullanıcının kendi çalışmasına ait
+.yz-beyan/
+
+# Editör / işletim sistemi
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Windows
+$RECYCLE.BIN/
+ehthumbs.db

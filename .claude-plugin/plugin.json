@@ -1,0 +1,24 @@
+{
+  "name": "akademik-yz-uyum",
+  "version": "0.1.0",
+  "description": "Akademik çalışmalarda yapay zekâ kullanımını YÖK, TÜBİTAK ve uluslararası yayıncı kurallarına uygun yürütür; kullanım günlüğü tutar ve resmî beyan metnini üretir.",
+  "author": {
+    "name": "Selahattin İlhan"
+  },
+  "repository": "https://github.com/KULLANICI_ADIN/akademik-yz-uyum",
+  "homepage": "https://github.com/KULLANICI_ADIN/akademik-yz-uyum#readme",
+  "license": "MIT",
+  "keywords": [
+    "akademik",
+    "etik",
+    "yok",
+    "tubitak",
+    "tez",
+    "makale",
+    "beyan",
+    "arastirma-etigi",
+    "academic-integrity",
+    "ai-disclosure",
+    "turkish"
+  ]
+}

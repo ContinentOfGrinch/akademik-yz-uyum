@@ -1,0 +1,17 @@
+{
+  "name": "akademik-yz-uyum",
+  "owner": {
+    "name": "Selahattin İlhan"
+  },
+  "metadata": {
+    "description": "Akademik yapay zekâ uyum araçları"
+  },
+  "plugins": [
+    {
+      "name": "akademik-yz-uyum",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Akademik çalışmalarda yapay zekâ kullanımını YÖK, TÜBİTAK ve uluslararası yayıncı kurallarına uygun yürütür; kullanım günlüğü tutar ve resmî beyan metnini üretir."
+    }
+  ]
+}
