@@ -3,7 +3,7 @@
 **Yapay zekâyla akademik çalışırken sınırı o anda gösteren, beyanını senin yerine
 tutan bir Claude skill'i.** YÖK, TÜBİTAK ve uluslararası dergi kurallarına göre.
 
-Bir yasak listesi değil. Çalışma biçimi.
+Bir yasak listesi değil. Çalışma biçimi. Çalışma bittikten sonra kontrol edip düzeltmek daha tatsız bir deneyim olabilir, bu yüzden çalışma sırasında kuralların izin verdiği çerçevede verimimizi arttırmak için yapay zeka kullanımı artık şart. İleride benchmark testlerini ve diğer ilgili istatistikleri ekleyeceğim, anlamlı bir şekilde token kullanımını arttırdığını belirtmemde fayda var.
 
 ---
 
