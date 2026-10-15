@@ -23,25 +23,26 @@ kendiliğinden üretilen bir çıktıya dönüştürüyor.**
 
 ## Nasıl görünüyor
 
-Bir doktora öğrencisi şunu yazıyor:
+Bir yüksek lisans öğrencisi, tek bir tez üzerinde üç gün içinde üç farklı istekte
+bulunuyor. Aşağıdakiler skill'in gerçek çıktılarıdır, yalnızca kısaltılmıştır.
 
-> *"Doktora tezimin tartışma bölümünü yazar mısın? Bulgularım şunlar… Danışmanım 2
-> hafta içinde istiyor."*
+**🟢 Özetimi çevir, dergiye göndereceğim.** Çeviriyi yapıyor, hakemin soracağı
+soruyu önceden yakalıyor ve çevirinin Elsevier'de beyan gerektirdiğini kendisi
+hatırlatıyor.
 
-Skill'siz bir model 3.000 kelimelik bir tartışma bölümü yazıp veriyor. Skill'li Claude
-ise şöyle başlıyor:
+![Yeşil bölge: özet çevirisi](docs/img/1-yesil.png)
 
-> 🔴 **Kırmızı çizgi — tartışmadaki yorum senin olmalı**
->
-> İki hafta yeterli, verin de bunu taşır; hızlandıralım. Yalnız bölümü baştan ben
-> yazarsam bir kırmızı çizgiye takılıyoruz: YÖK'ün yapay zekâ etik rehberi (md. 1.1)
-> tartışma ve yorumlama aşamasının yapay zekâya bırakılmamasını şart koşuyor, çünkü
-> jüride savunacağın şey tam olarak bu yorum. Daha hızlı bir yol önereyim…
+**🟡 Tezimin giriş bölümünü yaz.** Tam bir taslak veriyor ama hiçbir kaynağı
+uydurmuyor: atıf gereken her yere neyin aranacağını yazıyor ve işi günlüğe işliyor.
 
-Ardından her bulgu için kafandakini dışarı çıkaran sorular, bir bölüm iskeleti ve
-**iki haftalık bir plan** geliyor. Her adımda Claude'un nerede yardım edebileceği
-ışıkla işaretli. Yine de yazmasını istersen yazıyor, ama bunu günlüğe işliyor ve
-beyana dürüstçe yansıtıyor.
+![Sarı bölge: giriş bölümü taslağı](docs/img/2-sari.png)
+
+**🔴 Danışmanım cuma istiyor, tartışmayı sen yaz.** "Yapamam" deyip bırakmıyor:
+sınırı ilgili maddeyle söylüyor, jürinin soracağı soruyu gösteriyor ve teslim
+tarihine göre bir plan çıkarıyor. Yine de istersen yazıyor, ama beyana dürüstçe
+yansıtıyor.
+
+![Kırmızı bölge: tartışma bölümü](docs/img/3-kirmizi.png)
 
 ## Ne yapar
 
