@@ -1,42 +1,79 @@
 # Akademik YZ Uyum
 
-Claude Code / Claude.ai için bir skill. Akademik çalışmalarda yapay zekâ kullanımını
-**YÖK**, **TÜBİTAK** ve uluslararası yayıncı kurallarına (ICMJE, COPE) uygun
-yürütmeni sağlar.
+**Yapay zekâyla akademik çalışırken sınırı o anda gösteren, beyanını senin yerine
+tutan bir Claude skill'i.** YÖK, TÜBİTAK ve uluslararası dergi kurallarına göre.
 
 Bir yasak listesi değil. Çalışma biçimi.
 
+---
+
+## Sorun
+
+Akademisyenlerin çoğu kuralları bilmiyor değil. Sorun şu: çalışmanın ortasında sınır
+görünmez oluyor.
+
+"Bu makaleleri özetle" ile "tartışma bölümünü yaz" aynı sohbette, benzer cümlelerle
+isteniyor. Biri tamamen serbest, diğeri etik soruşturmaya açık. İş bitince de kimse ne
+yaptığını hatırlamıyor; beyan ya atlanıyor ya da *"yapay zekâdan yararlanılmıştır"*
+gibi hiçbir şey söylemeyen bir cümleye dönüşüyor. YÖK rehberine göre beyanı atlamak
+tek başına disiplin sorumluluğu doğurabilir.
+
+Bu skill o iki boşluğu kapatıyor: **sınırı anlık görünür kılıyor** ve **beyanı
+kendiliğinden üretilen bir çıktıya dönüştürüyor.**
+
+## Nasıl görünüyor
+
+Bir doktora öğrencisi şunu yazıyor:
+
+> *"Doktora tezimin tartışma bölümünü yazar mısın? Bulgularım şunlar… Danışmanım 2
+> hafta içinde istiyor."*
+
+Skill'siz bir model 3.000 kelimelik bir tartışma bölümü yazıp veriyor. Skill'li Claude
+ise şöyle başlıyor:
+
+> 🔴 **Kırmızı çizgi — tartışmadaki yorum senin olmalı**
+>
+> İki hafta yeterli, verin de bunu taşır; hızlandıralım. Yalnız bölümü baştan ben
+> yazarsam bir kırmızı çizgiye takılıyoruz: YÖK'ün yapay zekâ etik rehberi (md. 1.1)
+> tartışma ve yorumlama aşamasının yapay zekâya bırakılmamasını şart koşuyor, çünkü
+> jüride savunacağın şey tam olarak bu yorum. Daha hızlı bir yol önereyim…
+
+Ardından her bulgu için kafandakini dışarı çıkaran sorular, bir bölüm iskeleti ve
+**iki haftalık bir plan** geliyor. Her adımda Claude'un nerede yardım edebileceği
+ışıkla işaretli. Yine de yazmasını istersen yazıyor, ama bunu günlüğe işliyor ve
+beyana dürüstçe yansıtıyor.
+
 ## Ne yapar
 
-**1. Sınırı anlık olarak görünür kılar.** Her isteği üç bölgeye ayırır:
+**1. Her cevapta bölgeyi gösterir.** İlk satırda tek bir ışık yanar:
 
-| | |
-|---|---|
-| 🟢 **Serbest** | Kaynak tarama, dil düzeltme, çeviri, kod, veri temizleme |
-| 🟡 **Beyan gerektiren** | Taslak oluşturma, veri analizi yorumu, görsel üretimi |
-| 🔴 **Yasak** | Tartışma/sonuç yazdırma; veri uydurma, uydurma kaynak, intihal, hakemlikte kullanım |
+| | | Örnekler |
+|---|---|---|
+| 🟢 | **Serbest** | Dil düzeltme, çeviri, literatür tarama ve özetleme, kaynakça, kod |
+| 🟡 | **Beyan gerektirir** | Bölüm taslağı, proje başvurusu bölümleri, analiz yorumu, şekil üretimi |
+| 🔴 | **Kırmızı çizgi** | Tartışma/sonuç yazdırma; veri uydurma, sahte kaynak, intihal, hakemlikte kullanım |
 
-Bu ayrım uydurma değil — TÜBİTAK'ın kendi rehberi tam olarak bu üç başlığı kullanıyor
-("Destekleyici / Dikkat Edilmesi Gereken / Yasaklanan Kullanımlar").
+Bu ayrım uydurma değil: TÜBİTAK'ın kendi rehberi tam olarak bu üç başlığı kullanıyor
+("Destekleyici / Dikkat Edilmesi Gereken / Yasaklanan Kullanımlar"). Kurallar
+ezberlenmiyor; her istekte görüldükçe sezgiye dönüşüyor.
 
-**2. Kırmızı bölgede kapıyı kapatmaz, yolu değiştirir.** "Tartışma bölümünü yaz"
-dediğinde reddedip seni başka bir araca göndermez. Sınırın nerede olduğunu açıkça
-söyler, sonra bulgularını tek tek sorar, her biri için "bu literatürdeki hangi
-beklentiyi bozuyor?" diye sorar ve iskeleti senin kendi cümlelerinden çıkarır. Sonra
-o iskeleti düzenler — bu artık meşru bir kullanım. Yine de yazmasını istersen yazar,
-ama bunu günlüğe işler ve beyana dürüstçe yansıtır.
+**2. Kırmızı bölgede kapıyı kapatmaz, yolu değiştirir.** "Bunu yapamam" demez.
+Önce ihtiyacını görür, sonra sınırı **ilgili maddeye atıfla** açıkça söyler
+(ör. *"YÖK Etik Yönergesi md. 4/1-b'deki sahtecilik kapsamına girer"*) ve işi
+sınırın doğru tarafından yapmanın yolunu gösterir. Cevap, işi kendin yapabileceğin
+adım adım bir planla biter.
 
-İki istisna var: **veri uydurma** (sahte anket yanıtı, uydurma kaynak, intihal) ve
-**hakemlik**. Bunlarda zarar başkasına iner ve beyan onu meşrulaştırmaz, o yüzden
-ısrar etsen de yapmaz — ama seni eli boş göndermez, kurala uygun yolu gösterir.
+İki sert istisna var: **veri uydurma** (sahte anket yanıtı, uydurma kaynak, intihal)
+ve **hakemlik**. Bunlarda zarar başkasına iner ve beyan onu meşrulaştırmaz; ısrar
+etsen de yapmaz. Ama seni eli boş göndermez.
 
-**3. Arka planda kullanım günlüğü tutar.** Ne yaptığını `.yz-beyan/gunluk.md`
-dosyasında biriktirir.
+**3. Arka planda kullanım günlüğü tutar.** 🟡 ve 🔴 işleri `.yz-beyan/gunluk.md`
+dosyasında biriktirir. Doğrulamayı ancak sen "doğruladım" dediğinde işaretler.
 
-**4. Beyan metnini üretir.** Günlükten, hedef merciye göre hazır metin: tez, TR Dizin
-dergisi, uluslararası dergi, TÜBİTAK proje başvurusu, etik kurul başvurusu —
-Türkçe ve İngilizce. Beyan günlükle birebir tutarlıdır: yapılmış bir işi gizlemez,
-yapılmamış bir doğrulamayı yapılmış gibi göstermez.
+**4. Beyan metnini üretir.** Günlükten, hedef merciye göre hazır metin: tez,
+enstitü beyan formu, TR Dizin dergisi, uluslararası dergi, TÜBİTAK başvurusu, etik
+kurul. Türkçe ve İngilizce. Beyan günlükle birebir tutarlıdır: yapılmış bir işi
+gizlemez, yapılmamış bir doğrulamayı yapılmış gibi göstermez.
 
 Asıl fikir bu: **kısıtlama bir çıktıya dönüşüyor.** Uyum bir maliyet olmaktan çıkıp
 işin bir parçası oluyor.
@@ -59,7 +96,7 @@ yurt dışında çalışıyorsan kendi kurumunun kuralını esas al.
 ### Claude Code
 
 ```
-/plugin marketplace add KULLANICI_ADIN/akademik-yz-uyum
+/plugin marketplace add ContinentOfGrinch/akademik-yz-uyum
 /plugin install akademik-yz-uyum
 ```
 
