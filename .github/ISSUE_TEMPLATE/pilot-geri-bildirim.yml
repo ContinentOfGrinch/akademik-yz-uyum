@@ -1,0 +1,77 @@
+name: Kullanım deneyimi / pilot geri bildirimi
+description: Skill'i gerçek bir çalışmada kullandıktan sonra deneyimini paylaş
+title: "[Deneyim] "
+labels: ["geri-bildirim"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bu form skill'in gerçek kullanımda nasıl çalıştığını anlamak için.
+        **Tezinden, makalenden veya katılımcı verinden hiçbir içerik paylaşma** —
+        yalnızca deneyimini anlat.
+  - type: dropdown
+    id: rol
+    attributes:
+      label: Rolün
+      options:
+        - Lisans öğrencisi
+        - Yüksek lisans öğrencisi
+        - Doktora öğrencisi
+        - Öğretim üyesi / araştırmacı
+        - Proje başvurusu hazırlayan
+        - Hakem / panelist
+        - Diğer
+    validations:
+      required: true
+  - type: dropdown
+    id: ortam
+    attributes:
+      label: Nerede kullandın?
+      options:
+        - Claude Code
+        - Claude.ai (web)
+        - Claude masaüstü / mobil
+    validations:
+      required: true
+  - type: textarea
+    id: is
+    attributes:
+      label: Ne için kullandın?
+      placeholder: "Örn. tez giriş bölümü taslağı, TÜBİTAK 2209 özeti, dergi özeti çevirisi"
+    validations:
+      required: true
+  - type: dropdown
+    id: isik
+    attributes:
+      label: Her cevaptaki 🟢🟡🔴 ışık
+      options:
+        - Faydalı, kalsın
+        - Nötr
+        - Rahatsız edici
+  - type: dropdown
+    id: kirmizi
+    attributes:
+      label: Kırmızı çizgiye geldiğinde önerilen yol işine yaradı mı?
+      options:
+        - Kırmızıya hiç gelmedim
+        - Evet, işimi kolaylaştırdı
+        - Kısmen
+        - Hayır, ret gibi hissettirdi
+  - type: dropdown
+    id: beyan
+    attributes:
+      label: Beyan metnini kullandın mı?
+      options:
+        - Henüz değil
+        - Evet, olduğu gibi
+        - Evet, düzelterek
+        - Hayır, işe yaramadı
+  - type: textarea
+    id: sorun
+    attributes:
+      label: Yanlış giden ya da eksik olan
+      description: Yanlış bölge, yanlış madde atfı, gereksiz uyarı, tetiklenmemesi gereken yerde tetiklenme vb.
+  - type: textarea
+    id: oneri
+    attributes:
+      label: Önerin

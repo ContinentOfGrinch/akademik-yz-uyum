@@ -1,0 +1,24 @@
+name: Hatalı kural veya davranış
+description: Yanlış bir kural, yanlış madde atfı, eskimiş bir rehber ya da hatalı davranış bildir
+title: "[Hata] "
+labels: ["hata"]
+body:
+  - type: textarea
+    id: ne
+    attributes:
+      label: Ne oldu?
+      description: Skill ne dedi ya da ne yaptı? Kişisel veya yayımlanmamış içerik paylaşma.
+    validations:
+      required: true
+  - type: textarea
+    id: dogrusu
+    attributes:
+      label: Doğrusu ne olmalıydı?
+      description: Bir kurala dayanıyorsa resmî kaynağın bağlantısını ve madde numarasını ver.
+    validations:
+      required: true
+  - type: input
+    id: surum
+    attributes:
+      label: Skill sürümü
+      placeholder: "Örn. 0.2.0"

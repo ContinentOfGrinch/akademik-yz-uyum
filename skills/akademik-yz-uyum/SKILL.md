@@ -340,6 +340,24 @@ Ama kullanıcı "ne yaptık" diye sorduğunda günlüğü göster.
 `.yz-beyan/` klasörünü ilk kez oluştururken, proje bir git deposuysa tek cümleyle
 hatırlat: depo herkese açıksa günlük de görünür olur; isterse `.gitignore`'a eklesin.
 
+### Dosya yazamıyorsan (Claude.ai, mobil, masaüstü sohbet)
+
+Günlüğün değeri dosyada değil, kayıtta. Dosya yazma aracın yoksa:
+
+1. **Günlüğü sohbetin içinde tut.** 🟡 veya 🔴 bir iş yaptığında cevabın sonuna tek
+   satırlık bir not düş: `📝 Günlüğe eklendi: Özgün değer taslağı (🟡)`. Tablonun
+   tamamını her seferinde basma; akışı boğar.
+2. **Kullanıcı "günlük" ya da "ne yaptık" dediğinde** veya iş bitmeye yaklaştığında,
+   o ana kadarki kayıtları yukarıdaki biçimde tek bir tablo olarak ver ve kopyalayıp
+   saklamasını söyle. Claude Projeleri kullanıyorsa tabloyu proje dosyası olarak
+   eklemesini öner; böylece sonraki sohbetlerde de görürsün.
+3. **Yeni bir sohbette** kullanıcı eski bir çalışmaya döndüyse ve günlük elinde
+   yoksa, önceki günlüğünü yapıştırmasını iste. Hatırlamadığın bir kaydı uydurma;
+   beyan ancak elindeki kayıtlar kadar doğrudur.
+
+Bağlam (`baglam.md`) için de aynısı: dosya yoksa bağlamı sohbetin başında bir kez
+özetle ve günlük tablosunun başına ekle.
+
 ## Beyan metni üretimi
 
 Kullanıcı istediğinde — ya da çalışma tamamlanmaya yaklaştığında bir kez teklif ederek —
@@ -393,6 +411,7 @@ Hepsini birden okuma; yalnızca bağlamın gerektirdiğini aç.
 | `references/uluslararasi.md` | Uluslararası dergiye gönderim, ICMJE/COPE kuralları, yayıncı politikaları, hakemlik |
 | `references/beyan-sablonlari.md` | Beyan metni üretirken |
 | `references/ihlal-tablosu.md` | Kırmızı bölgede madde atıfı yaparken; kullanıcı "hangi kural?" ya da "neler yasak?" diye sorduğunda |
+| `references/kurumlar/` | Kullanıcının üniversitesi, enstitüsü veya dergisi belli olduğunda: o kurumun dosyası varsa onu oku, kuralı genel kuralların önüne geçer |
 
 ## Son söz: tonunu ayarla
 

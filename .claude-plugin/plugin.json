@@ -1,6 +1,6 @@
 {
   "name": "akademik-yz-uyum",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Akademik çalışmalarda yapay zekâ kullanımını YÖK, TÜBİTAK ve uluslararası yayıncı kurallarına uygun yürütür; kullanım günlüğü tutar ve resmî beyan metnini üretir.",
   "author": {
     "name": "Selahattin İlhan"

@@ -108,7 +108,20 @@ Daha eski sürümlerde iki adımda:
 /plugin install akademik-yz-uyum
 ```
 
-### Elle kurulum
+### Claude.ai (web, masaüstü, mobil)
+
+1. [Son sürüm sayfasından](https://github.com/ContinentOfGrinch/akademik-yz-uyum/releases/latest)
+   `akademik-yz-uyum.zip` dosyasını indir.
+2. **Ayarlar → Yetenekler (Capabilities)** sayfasında **kod çalıştırma ve dosya
+   oluşturma** seçeneğini aç.
+3. Aynı sayfadaki **Skills** bölümünde **Upload skill** ile zip dosyasını yükle.
+
+Pro, Max, Team ve Enterprise planlarında çalışır. Claude.ai'de dosyalar sohbetten
+sohbete taşınmadığı için skill kullanım günlüğünü sohbetin içinde tutar ve
+istediğinde tablo olarak verir. Çalışman için bir **Claude Projesi** açıp tabloyu
+projeye dosya olarak eklersen sonraki sohbetlerde de kaldığı yerden devam eder.
+
+### Elle kurulum (Claude Code)
 
 `skills/akademik-yz-uyum/` klasörünü şuraya kopyala:
 
@@ -152,12 +165,17 @@ olduğun anda göstermek.
 
 ## Katkı
 
-Kurumunun yönergesi farklıysa, bir dergi politikası değiştiyse ya da bir kullanım
-senaryosu eksikse issue aç. Özellikle değerli olanlar:
+Skill gerçek kullanımla gelişecek. Katkı yolları:
 
-- Üniversite/enstitü tez yönergelerindeki farklı hükümler
-- Alan-spesifik dergi politikaları
-- Rehberlerin güncellenmesi
+- **Pilot programı:** Bir hafta kendi işinde dene, deneyimini anlat →
+  [PILOT.md](PILOT.md)
+- **Kurumunun yönergesi:** Üniversitenin, enstitünün ya da derginin kendi yapay
+  zekâ kuralı varsa ["Kurum yönergesi ekle"](https://github.com/ContinentOfGrinch/akademik-yz-uyum/issues/new?template=kurum-yonergesi.yml)
+  şablonuyla bildir. Resmî belgeden doğrulanan kurallar skill'e eklenir ve o kurumun
+  kullanıcıları için genel kuralların önüne geçer.
+- **Hatalı kural veya davranış:** Yanlış bir madde atfı, eskimiş bir rehber ya da
+  yanlış renkte yanan bir ışık için ["Hata"](https://github.com/ContinentOfGrinch/akademik-yz-uyum/issues/new?template=hata.yml)
+  şablonunu kullan.
 
 ## Lisans
 

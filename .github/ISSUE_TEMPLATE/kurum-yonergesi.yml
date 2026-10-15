@@ -1,0 +1,54 @@
+name: Kurum yönergesi ekle
+description: Üniversitenin, enstitünün veya derginin yapay zekâ kuralını skill'e ekletmek için
+title: "[Kurum] "
+labels: ["kurum-yonergesi"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Teşekkürler! Skill yalnızca **resmî belgenin tam metninden** doğrulanmış kuralları ekler.
+        Haber, forum yazısı veya ikincil kaynak yeterli değil; lütfen resmî bağlantıyı ver.
+  - type: input
+    id: kurum
+    attributes:
+      label: Kurum ve birim
+      placeholder: "Örn. Atatürk Üniversitesi Sosyal Bilimler Enstitüsü"
+    validations:
+      required: true
+  - type: input
+    id: belge
+    attributes:
+      label: Belgenin tam adı
+      placeholder: "Örn. Üretken Yapay Zekâ Kullanımına İlişkin Uygulama Esasları"
+    validations:
+      required: true
+  - type: input
+    id: baglanti
+    attributes:
+      label: Resmî bağlantı (PDF veya kurum sayfası)
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: input
+    id: tarih
+    attributes:
+      label: Kabul / son değişiklik tarihi
+  - type: textarea
+    id: fark
+    attributes:
+      label: YÖK/TÜBİTAK genel kurallarından farkı
+      description: Daha katı veya farklı olan hükümler, madde numarasıyla. Örn. "tartışma bölümünde YZ kullanımı tümden yasak (md. 5/2)".
+    validations:
+      required: true
+  - type: textarea
+    id: beyan
+    attributes:
+      label: Beyanın yeri ve biçimi
+      description: Ayrı bir form mu, tezin hangi bölümü, hangi alanlar isteniyor?
+  - type: checkboxes
+    id: dogrulama
+    attributes:
+      label: Doğrulama
+      options:
+        - label: Belgenin tam metnini kendim okudum ve yukarıdaki hükümleri oradan aldım.
+          required: true
