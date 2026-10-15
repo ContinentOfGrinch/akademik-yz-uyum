@@ -45,6 +45,12 @@ dergilerinin büyük kısmı ICMJE tavsiyelerini benimser.
   açıklamalıdır.
 - Yazarlar, yapay zekâ tarafından üretilenler dâhil **makalenin tüm içeriğinden
   sorumludur.**
+- **Beyanın yeri kullanım türüne göre ayrılır:** *"Use of AI for writing assistance
+  should be reported in the acknowledgment section"*; *"If AI was used for data
+  collection, analysis, or figure generation, authors should describe this use in the
+  methods"*. Ayrıca kapak mektubunda da belirtilmelidir. (Kaynak: ICMJE, "Defining the
+  Role of Authors and Contributors" ve "AI Use by Authors" sayfaları — doğrulandı:
+  Ekim 2026.)
 
 ## 3. COPE
 
@@ -54,8 +60,10 @@ Committee on Publication Ethics — disiplinden bağımsız, en yaygın atıf al
 - Yapay zekâ araçları yazarlık ölçütlerini karşılayamaz.
 - Yazarlar, **hangi aracın nasıl kullanıldığı** konusunda şeffaf olmalıdır; beyanın
   yeri **Materials and Methods** bölümü (veya muadili) olarak gösterilir.
-- Bu, YÖK rehberinin "yöntem kısmında açıklanması gereklidir" hükmüyle birebir
-  örtüşür — yani Türkçe ve İngilizce yayında beyanın yeri aynıdır.
+- Bu, YÖK rehberinin "yöntem kısmında açıklanması gereklidir" hükmüyle örtüşür.
+  Ancak ICMJE'ye bağlı dergilerde yalnızca yazım desteği için kullanım teşekkür
+  bölümüne gider (yukarıya bak). Yani "beyan her zaman yöntem bölümüne" genellemesi
+  doğru değildir; hedef derginin yönergesi belirler.
 
 ## 4. Yayıncı politikaları
 
