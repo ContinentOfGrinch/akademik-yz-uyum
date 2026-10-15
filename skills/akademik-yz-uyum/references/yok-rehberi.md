@@ -19,6 +19,7 @@
 6. [Sıkça sorulan sorular](#6-sıkça-sorulan-sorular--rehberin-kendi-cevapları)
 7. [İlgili mevzuat](#7-ilgili-mevzuat)
 8. [Rehberdeki bir gerilim](#8-rehberdeki-bir-gerilim)
+9. [YÖK Bilimsel Araştırma ve Yayın Etiği Yönergesi — ihlal maddeleri](#9-yök-bilimsel-araştırma-ve-yayın-etiği-yönergesi--ihlal-maddeleri)
 
 ---
 
@@ -174,3 +175,77 @@ belirleyicidir.
 
 Bu tür belirsizliklerde kullanıcıya gerilimi olduğu gibi aktar ve kendi enstitüsünün
 yorumunu sormasını öner — tek bir okumayı kesinmiş gibi sunma.
+
+## 9. YÖK Bilimsel Araştırma ve Yayın Etiği Yönergesi — ihlal maddeleri
+
+ÜYZ Etik Rehberi bir rehberdir; **ihlalin tanımı ve yaptırımın dayanağı** bu
+yönergededir. Kırmızı bölgede kullanıcıya "hangi kural" sorusunun cevabını
+verirken bu maddelere atıf yap.
+
+**Tam adı:** Yükseköğretim Kurumları Bilimsel Araştırma ve Yayın Etiği Yönergesi
+**Dayanak:** 2547 sayılı Kanunun 24, 42 ve 65. maddeleri (Yönerge md. 3)
+**Sürüm:** YÖK Genel Kurulu'nun 28/8/2025 tarihli kararıyla değişik metin
+**Kaynak:** https://www.yok.gov.tr/documents/documents/68fb63b8b2511.pdf
+(tam metin okunarak doğrulandı: Ekim 2026)
+
+**Kapsam (md. 2):** Lisansüstü tezler (2/1-b), akademik unvan öncesi ve sonrası
+her tür araştırma (2/1-a), yurt içi ve yurt dışında yayımlanan veya gönderilen
+her tür yayın (2/1-c).
+
+### Madde 4/1 — Bilimsel araştırma ve yayın etiğine aykırı eylemler
+
+> **a) İntihal:** Başkalarının özgün fikirlerini, metotlarını, verilerini veya
+> eserlerini bilimsel kurallara uygun biçimde atıf yapmadan kısmen veya tamamen
+> kendi eseri gibi göstermek,
+>
+> **b) Sahtecilik:** Bilimsel araştırmalarda gerçekte var olmayan veya tahrif
+> edilmiş verileri kullanmak,
+>
+> **c) Çarpıtma:** Araştırma kayıtları veya elde edilen verileri tahrif etmek,
+> araştırmada kullanılmayan cihaz veya materyalleri kullanılmış gibi göstermek,
+> destek alınan kişi ve kuruluşların çıkarları doğrultusunda araştırma sonuçlarını
+> tahrif etmek veya şekillendirmek,
+>
+> **ç) Tekrar yayım** · **d) Dilimleme** · **e) Haksız yazarlık** (yapay zekâyla
+> doğrudan ilgili değil; ayrıntı için yönergeye bak)
+
+### Madde 4/2 — Diğer etik ihlal türleri (yapay zekâ kullanımıyla ilgili olanlar)
+
+> **b)** Henüz sunulmamış veya savunularak kabul edilmemiş tez veya çalışmaları,
+> sahibinin izni olmadan kaynak olarak kullanmak,
+>
+> **d)** İncelemek üzere görevlendirildiği bir eserde yer alan bilgileri eser
+> sahibinin açık izni olmaksızın yayımlanmadan önce başkalarıyla paylaşmak,
+>
+> **g)** Bilimsel bir çalışma kapsamında yapılan anket ve tutum araştırmalarında
+> katılımcıların açık rızasını almadan … elde edilen verileri yayımlamak,
+>
+> **k)** Bilimsel çalışmalarda, diğer kişi ve kurumlardan temin edilen veri ve
+> bilgileri, izin verildiği ölçüde ve şekilde kullanmamak, bu bilgilerin
+> gizliliğine riayet etmemek ve korunmasını sağlamamak,
+>
+> **l)** Akademik atama ve yükseltmelerde bilimsel araştırma ve yayınlara ilişkin
+> yanlış veya yanıltıcı beyanda bulunmak.
+
+4/2-d hakemlik yasağının YÖK tarafındaki karşılığıdır: değerlendirilen makaleyi bir
+yapay zekâ aracına girmek, onu yayımlanmadan önce üçüncü bir tarafla paylaşmaktır.
+
+### Madde 10 — İnceleme sonucunda yapılacak işlemler
+
+> **(1)** … ilgili mevzuat uyarınca gerekli disiplin işlemleri ile diğer idari, hukuki
+> ve cezai işlemler yükseköğretim kurumu tarafından yapılır.
+>
+> **(2)** Etiğe aykırı eyleme konu olan eserle daha önce akademik unvan elde edilmiş
+> ise … bu unvanın geri alınıp alınmayacağı hususu da ilgili yükseköğretim kurumu
+> tarafından değerlendirilir.
+>
+> **(3)** Etiğe aykırı eylemlerin gerçekleşmesi halinde asıl müellif, zarar gören
+> veya hakları olumsuz etkilenen kişi ve kuruluşların rıza göstermesi ilgililerin
+> sorumluluğunu ortadan kaldırmaz.
+
+10/3 özellikle işe yarar: "danışmanım da onaylıyor / fark etmez" diyen kullanıcıya
+nazikçe gösterilebilecek doğrudan hüküm budur.
+
+**Not:** Yönerge "yapay zekâ" kelimesini hiç geçirmez. Yapay zekâyla yapılan bir
+eylemin hangi bende girdiği yoruma dayanır; atıf yaparken "… kapsamına girebilir"
+de, kesin hüküm kurma. Yaptırım kararını kurumun etik kurulu verir.

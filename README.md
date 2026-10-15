@@ -14,22 +14,29 @@ Bir yasak listesi değil. Çalışma biçimi.
 |---|---|
 | 🟢 **Serbest** | Kaynak tarama, dil düzeltme, çeviri, kod, veri temizleme |
 | 🟡 **Beyan gerektiren** | Taslak oluşturma, veri analizi yorumu, görsel üretimi |
-| 🔴 **Yasak** | Bulgular/tartışma/sonuç yazdırma, veri uydurma, hakemlik, uydurma kaynak |
+| 🔴 **Yasak** | Tartışma/sonuç yazdırma; veri uydurma, uydurma kaynak, intihal, hakemlikte kullanım |
 
 Bu ayrım uydurma değil — TÜBİTAK'ın kendi rehberi tam olarak bu üç başlığı kullanıyor
 ("Destekleyici / Dikkat Edilmesi Gereken / Yasaklanan Kullanımlar").
 
 **2. Kırmızı bölgede kapıyı kapatmaz, yolu değiştirir.** "Tartışma bölümünü yaz"
-dediğinde reddedip seni başka bir araca göndermez. Bulgularını tek tek sorar, her biri
-için "bu literatürdeki hangi beklentiyi bozuyor?" diye sorar, iskeleti senin kendi
-cümlelerinden çıkarır. Sonra o iskeleti düzenler — bu artık meşru bir kullanım.
+dediğinde reddedip seni başka bir araca göndermez. Sınırın nerede olduğunu açıkça
+söyler, sonra bulgularını tek tek sorar, her biri için "bu literatürdeki hangi
+beklentiyi bozuyor?" diye sorar ve iskeleti senin kendi cümlelerinden çıkarır. Sonra
+o iskeleti düzenler — bu artık meşru bir kullanım. Yine de yazmasını istersen yazar,
+ama bunu günlüğe işler ve beyana dürüstçe yansıtır.
+
+İki istisna var: **veri uydurma** (sahte anket yanıtı, uydurma kaynak, intihal) ve
+**hakemlik**. Bunlarda zarar başkasına iner ve beyan onu meşrulaştırmaz, o yüzden
+ısrar etsen de yapmaz — ama seni eli boş göndermez, kurala uygun yolu gösterir.
 
 **3. Arka planda kullanım günlüğü tutar.** Ne yaptığını `.yz-beyan/gunluk.md`
 dosyasında biriktirir.
 
-**4. Beyan metnini üretir.** Günlükten, hedef mercie göre hazır metin: tez, TR Dizin
+**4. Beyan metnini üretir.** Günlükten, hedef merciye göre hazır metin: tez, TR Dizin
 dergisi, uluslararası dergi, TÜBİTAK proje başvurusu, etik kurul başvurusu —
-Türkçe ve İngilizce.
+Türkçe ve İngilizce. Beyan günlükle birebir tutarlıdır: yapılmış bir işi gizlemez,
+yapılmamış bir doğrulamayı yapılmış gibi göstermez.
 
 Asıl fikir bu: **kısıtlama bir çıktıya dönüşüyor.** Uyum bir maliyet olmaktan çıkıp
 işin bir parçası oluyor.
@@ -41,6 +48,11 @@ işin bir parçası oluyor.
 - TÜBİTAK 1001/2209, Horizon gibi proje başvurusu hazırlayanlar
 - Lisans öğrencileri
 - Hakemlik yapanlar (burada kurallar çok daha katı — skill bunu bilir)
+
+**Kapsam:** Türk akademisyenler için. Türkiye'deki kurallar (YÖK, TÜBİTAK) ve
+uluslararası dergilere gönderimde geçerli kurallar (ICMJE, COPE, büyük yayıncılar)
+kapsanır. Başka ülkelerin ulusal ve kurumsal kuralları henüz kapsam dışında;
+yurt dışında çalışıyorsan kendi kurumunun kuralını esas al.
 
 ## Kurulum
 
@@ -73,8 +85,9 @@ Beyanını istediğinde sor:
 Referans dosyaları resmî belgelerden doğrudan çıkarılmıştır:
 
 - [YÖK — Yükseköğretim Kurumları Bilimsel Araştırma ve Yayın Faaliyetlerinde Üretken Yapay Zekâ Kullanımına Dair Etik Rehber](https://eski.yok.gov.tr/Documents/2024/yapay-zeka-kullanimina-dair-etik-rehber.pdf) (7 Mayıs 2024)
+- [YÖK — Yükseköğretim Kurumları Bilimsel Araştırma ve Yayın Etiği Yönergesi](https://www.yok.gov.tr/documents/documents/68fb63b8b2511.pdf) (28/8/2025 değişik metin) — ihlal tanımları (md. 4) ve yaptırımlar (md. 10)
 - [TÜBİTAK — Destek Süreçlerinde ÜYZ'nin Sorumlu ve Güvenilir Kullanımı Rehberi](https://tubitak.gov.tr/sites/default/files/2025-10/UYZ_Rehberi_v03_TR.pdf) (Eylül 2025)
-- ICMJE Recommendations (Nisan 2025 güncellemesi)
+- [ICMJE Recommendations](https://www.icmje.org/recommendations/) — yazarların yapay zekâ kullanımı ve beyanın yeri (doğrulandı: Ekim 2026)
 - COPE — Authorship and AI tools
 
 ## Sınırları

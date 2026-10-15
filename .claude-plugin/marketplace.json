@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "akademik-yz-uyum",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "source": "./",
       "description": "Akademik çalışmalarda yapay zekâ kullanımını YÖK, TÜBİTAK ve uluslararası yayıncı kurallarına uygun yürütür; kullanım günlüğü tutar ve resmî beyan metnini üretir."
     }

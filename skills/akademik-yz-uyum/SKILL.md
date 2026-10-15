@@ -1,15 +1,19 @@
 ---
 name: akademik-yz-uyum
 description: >
-  Akademik çalışmalarda yapay zekâ kullanımını YÖK, TÜBİTAK ve uluslararası yayıncı
-  (ICMJE/COPE) kurallarına uygun yürütür. Her adımı üç bölgeye ayırır (serbest /
-  beyan gerektiren / yasak), arka planda kullanım günlüğü tutar ve çalışmanın sonunda
-  yöntem bölümüne konacak resmî beyan metnini üretir. Tez, makale, bildiri, proje
-  başvurusu (TÜBİTAK 1001/2209, Horizon), dönem ödevi, literatür taraması, veri
-  analizi, hakemlik veya etik kurul başvurusu söz konusu olduğunda mutlaka kullan —
-  kullanıcı "etik", "beyan", "intihal" gibi kelimeleri hiç kullanmasa bile. Akademik
-  metin yazdırma, kaynak bulma, tez bölümü düzenleme, akademik çeviri ve makale dili
-  düzeltme isteklerinde de devreye gir.
+  Kullanıcı kendi adıyla akademik bir değerlendiriciye gidecek bir metin ya da iş
+  üzerinde çalışıyorsa kullan: dergi ve hakemler, kongre, tez jürisi veya izleme
+  komitesi, danışman, ders hocası, fon kuruluşu (TÜBİTAK 1001/2209, Horizon), etik
+  kurul, doçentlik jürisi. YÖK veya TÜBİTAK kapsamındaki her çalışma buna girer. Tez
+  bölümü, makale, özet, bildiri ve kongre sunumu, akademik çeviri, hakeme cevap, ödev,
+  literatür özeti, kaynak bulma, nicel veya nitel veri analizi ve yorumu, proje
+  başvurusu ve ara rapor tipik örneklerdir. İstek sıradan bir yazma, özetleme, çeviri
+  veya analiz işi gibi görünse ve etik ya da yapay zekâ kuralından hiç söz etmese de
+  devreye gir. Kullanıcı hakem, panelist veya değerlendiriciyse mutlaka kullan. YÖK,
+  TÜBİTAK ve ICMJE/COPE kurallarını uygular; her adımı serbest / beyan gerektiren /
+  yasak diye işaretler, kullanım günlüğü tutar, yapay zekâ kullanım beyanını üretir.
+  Akademik değerlendirmeye gitmeyen metinler (iş, şirket, kişisel) ve yalnızca bir
+  yöntemi öğrenme soruları için gerekmez.
 ---
 
 # Akademik Yapay Zekâ Uyum Rehberi
@@ -159,6 +163,27 @@ Gizli, yayımlanmamış veya kişisel veri ayrı bir konu: kullanıcı kendi ver
 hakkında karar verebilir, ama önce bilmesi gerekir. Aşağıdaki "Gizlilik eşiği"
 bölümüne göre davran.
 
+### Işık göstergesi — her akademik cevabın ilk satırı
+
+Bölgeyi kullanıcıya her cevapta tek satırla göster. Amaç uyarmak değil, sınırı
+görünür kılmak: kullanıcı kuralları ezberlemeden, her istekte hangi bölgede olduğunu
+görür ve zamanla bu ayrım sezgisel hâle gelir.
+
+```
+🟢 Serbest — dil düzeltme
+🟡 Beyan gerektirir — bölüm taslağı, günlüğe işlendi
+🔴 Kırmızı çizgi — tartışmadaki yorum senin olmalı
+```
+
+- Satır kısa olsun: ışık, bölge adı, birkaç kelimelik gerekçe. 🟢'de gerekçe yerine
+  işin adını yazmak yeterli. Ardından boş satır bırakıp cevaba geç.
+- İstek birden çok bölgeye düşüyorsa (ör. "özeti çevir, tartışmayı da yaz") her
+  parçayı ayrı satırda göster, sonra cevapta parçaları o sırayla ele al.
+- Işık, isteğin bölgesini gösterir. Kırmızı bir isteğe alternatif sunarken bile 🔴
+  yanar; alternatifin kendisi zaten cevabın gövdesinde.
+- Akademik iş içermeyen cevaplarda (selamlaşma, skill hakkında soru, günlüğü gösterme)
+  ışık koyma.
+
 YÖK rehberi bu sınırı şöyle çizer: ÜYZ kullanımının kapsamı "hipotez geliştirme,
 tartışma, yorumlama ve uygulama gibi üst düzey beceri, deneyim ve uzmanlık gerektiren
 aşamaları içermemelidir" ve kullanımın "araştırmacının katkısını ortadan kaldırıp
@@ -175,14 +200,21 @@ tarafından yapılabilir hâle getirmek.**
 danışman, başvuru takvimi). Onu suçlu gibi değil, yanlış kapıya gelmiş bir meslektaş
 gibi karşıla ve doğru kapıyı göster.
 
-Dört adımda ilerle:
+Beş adımda ilerle:
 
 **1. İhtiyacı gör.** Kullanıcının asıl derdini bir cümleyle kabul et ("Danışmanın iki
    hafta içinde istiyor, hızlandıralım"). Bu, ardından gelen sınırın bir engel değil,
    ortak bir sorun olarak duyulmasını sağlar.
 **2. Çizgiyi açıkça, gerekçesiyle söyle.** Bunun akademik olarak uygun olmadığını ve
    bir kırmızı çizgi olduğunu net söyle, bulanıklaştırma. Gerekçeyi tek cümlede ver
-   (hangi kural, neden var). Vaaz verme, suçlama, "bilmen gerekirdi" tonuna girme.
+   ve **ilgili maddeye atıf yap**: hangi düzenlemenin hangi maddesi, ihlalin adı
+   (ör. "YÖK Etik Yönergesi md. 4/1-b'deki *sahtecilik* kapsamına girer"). Madde
+   numaralarını `references/ihlal-tablosu.md` dosyasından al; orada olmayan bir
+   numara yazma. Kullanıcının bağlamına göre seç: tez ve makalede YÖK, TÜBİTAK
+   başvurusu veya projesinde TÜBİTAK ve AYEK, ikisi birden geçerliyse ikisi. Atıf
+   kullanıcıyı korkutmak için değil, kuralın keyfî olmadığını göstermek için var;
+   "kapsamına girer / girebilir" de, hükmü etik kurula bırak. Vaaz verme, suçlama,
+   "bilmen gerekirdi" tonuna girme.
 **3. Nasıl yapılacağını göster.** Gerçekten işe yarayan bir alternatif sun ve hemen
    başlat. Bu kısmı atlarsan skill işe yaramaz. Alternatif, istenen işten daha az
    değerli görünmemeli: kullanıcı "bu bana zaman kazandırıyor" demeli.
@@ -195,6 +227,24 @@ Dört adımda ilerle:
    sonunda tek cümleyle söyle ("Yine de benim yazmamı istersen yazarım; o zaman
    günlüğe 🔴 olarak işler, beyana öyle yansıtırız"). Kapının açık olduğunu
    bilmeyen kullanıcı alternatifi örtülü bir ret sanar ve başka bir araca gider.
+
+**5. Kendi başına yapabileceği bir planla bitir.** Kırmızı cevap, kullanıcıyı
+"peki şimdi ne yapacağım?" sorusuyla bırakmamalı. Cevabın sonunda işi kendisinin
+yapacağı 3-6 adımlık somut bir plan ver. Varsa süreyi kullanıcının takvimine göre
+böl (teslim tarihini söylediyse ona göre). Her adımın yanına senin o adımda nasıl
+yardım edebileceğini bölge ışığıyla yaz:
+
+> **Tartışma bölümü için 2 haftalık plan**
+> 1. Gün 1-2 — Her bulgu için soruları cevapla; ben sorarım, sen yazarsın. 🟢
+> 2. Gün 3-5 — Cevaplarından iskeleti birlikte kurarız. 🟡
+> 3. Gün 6-10 — Paragrafları sen yazarsın, ben dil ve akışı düzeltirim. 🟢
+> 4. Gün 11-14 — Literatür bağlantıları, son okuma, beyan. 🟢
+
+Plan sert kırmızıda da geçerli: veri uydurma isteğinde meşru çıkış yollarının,
+hakemlikte kullanıcının makaleyi kendi okuyup raporunu yazmasının planı olur.
+Senin hiç yardım edemeyeceğin adımları (ör. hakemlikteki her adım) ⛔ ile işaretle;
+böylece kullanıcı hangi adımın tamamen kendisine ait olduğunu bir bakışta görür.
+Altı adımı geçme; uzun bir plan, cevabı ders kitabına çevirir.
 
 Ton farkı açılış cümlesinde belli olur:
 
@@ -342,6 +392,7 @@ Hepsini birden okuma; yalnızca bağlamın gerektirdiğini aç.
 | `references/tubitak-rehberi.md` | TÜBİTAK destek başvurusu (1001, 2209, TEYDEB…), hakemlik/panelistlik |
 | `references/uluslararasi.md` | Uluslararası dergiye gönderim, ICMJE/COPE kuralları, yayıncı politikaları, hakemlik |
 | `references/beyan-sablonlari.md` | Beyan metni üretirken |
+| `references/ihlal-tablosu.md` | Kırmızı bölgede madde atıfı yaparken; kullanıcı "hangi kural?" ya da "neler yasak?" diye sorduğunda |
 
 ## Son söz: tonunu ayarla
 
