@@ -95,6 +95,14 @@ yurt dışında çalışıyorsan kendi kurumunun kuralını esas al.
 
 ### Claude Code
 
+Tek adımda (Claude Code 2.1.275 ve sonrası):
+
+```
+/plugin install akademik-yz-uyum --marketplace ContinentOfGrinch/akademik-yz-uyum
+```
+
+Daha eski sürümlerde iki adımda:
+
 ```
 /plugin marketplace add ContinentOfGrinch/akademik-yz-uyum
 /plugin install akademik-yz-uyum
