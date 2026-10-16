@@ -166,7 +166,7 @@ olduğun anda göstermek.
 
 ## Katkı
 
-Skill gerçek kullanımla gelişecek. Katkı yolları:
+Skill gerçek kullanımla gelişecek. Katkı göndermeden önce [katkı şartlarına](CONTRIBUTING.md) göz at. Katkı yolları:
 
 - **Pilot programı:** Bir hafta kendi işinde dene, deneyimini anlat →
   [PILOT.md](PILOT.md)
@@ -180,4 +180,22 @@ Skill gerçek kullanımla gelişecek. Katkı yolları:
 
 ## Lisans
 
-MIT
+**CC BY-NC-ND 4.0** (Atıf-GayriTicari-Türetilemez) + ayrı ticari lisans.
+Bağlayıcı metin [LICENSE](LICENSE) dosyasındadır; aşağısı yalnızca özettir.
+
+| | |
+|---|---|
+| ✅ **Serbest** | Kendi tezin, makalen, projen, ödevin için kullanmak · üniversitende, enstitünde, dersinde öğrencilere kurdurmak ve öğretmek · değiştirmeden paylaşmak (ad belirterek) |
+| 💼 **İzne tabi** | Ücretli bir ürünün, uygulamanın veya platformun içine koymak · satmak · ücretli tez/yayın danışmanlığı, kurs veya eğitim hizmetinin parçası yapmak |
+| ⛔ **Yasak** | Değiştirilmiş ya da uyarlanmış bir sürümünü yayımlamak · kendi adınla yeniden yayımlamak |
+
+**Ticari lisans** için ["Ticari lisans talebi"](https://github.com/ContinentOfGrinch/akademik-yz-uyum/issues/new?template=ticari-lisans.yml)
+şablonuyla başvur; ayrıntıları özelden konuşuruz.
+
+Kurumuna uyarlanmış bir sürüm mü istiyorsun? Yayımlamak yerine kurumunun
+yönergesini ["Kurum yönergesi ekle"](https://github.com/ContinentOfGrinch/akademik-yz-uyum/issues/new?template=kurum-yonergesi.yml)
+şablonuyla gönder; doğrulanınca skill'in kendisine eklenir ve herkes yararlanır.
+
+0.1.0–0.2.0 sürümleri MIT lisansıyla yayımlanmıştır ve o sürümler için MIT geçerli
+kalır. İçerikte alıntılanan YÖK, TÜBİTAK, ICMJE ve COPE belgeleri kendi
+sahiplerine aittir.

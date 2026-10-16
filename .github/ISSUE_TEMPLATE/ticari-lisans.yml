@@ -1,0 +1,35 @@
+name: Ticari lisans talebi
+description: Akademik YZ Uyum'u ücretli bir ürün, hizmet veya eğitimde kullanmak için
+title: "[Ticari lisans] "
+labels: ["ticari-lisans"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bu issue herkese açıktır. Burada yalnızca **temel bilgileri** paylaş;
+        sözleşme ayrıntılarını, fiyatı ve iletişim bilgilerini özelden konuşuruz.
+        Bireysel akademik kullanım ve kurum içi eğitim için lisans gerekmez — bkz. README "Lisans".
+  - type: input
+    id: kurum
+    attributes:
+      label: Kurum / şirket
+    validations:
+      required: true
+  - type: dropdown
+    id: tur
+    attributes:
+      label: Kullanım türü
+      options:
+        - Ücretli yazılım / platform içine entegrasyon
+        - Ücretli danışmanlık (tez, yayın, proje)
+        - Ücretli kurs veya eğitim
+        - Kurumsal dağıtım (lisans gerekip gerekmediğinden emin değilim)
+        - Diğer
+    validations:
+      required: true
+  - type: textarea
+    id: aciklama
+    attributes:
+      label: Kısaca nasıl kullanmak istiyorsun?
+    validations:
+      required: true

@@ -52,3 +52,5 @@ body:
       options:
         - label: Belgenin tam metnini kendim okudum ve yukarıdaki hükümleri oradan aldım.
           required: true
+        - label: Katkımı CONTRIBUTING.md'deki katkı şartlarıyla gönderiyorum.
+          required: true
